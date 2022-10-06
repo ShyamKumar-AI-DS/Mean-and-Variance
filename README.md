@@ -58,16 +58,16 @@ L=[int (i) for i in input () .split ()]
 N=1en (L) ; M=max (L)
 x=list ();f=list ()
 for i in range (M+1) :
-   C = 0
+   c = 0
    for j in range (N) :
-      if L[j]=-i:
+      if L[j]==i:
          c=c+1
    f.append(c)
-   x .append (i)
-sf=np. sum(f)
+   x.append(i)
+sf=np.sum(f)
 p=list()
 for i in range (M+1) :
-   p-append(f[il/sf)
+   p-append(f[i]/sf)
 mean=p-inner(x,p)
 EX2=np-inner (np. square (x), P)
 var=EX2-mean**2
